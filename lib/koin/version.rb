@@ -1,3 +1,4 @@
-class Koin
-  VERSION = "0.5.0"
+require 'bigdecimal'
+class Koin < BigDecimal
+  VERSION = "0.5.1"
 end
