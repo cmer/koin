@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Koin is a data type to represent cryptocurrency values in Ruby.}
   spec.description   = %q{Koin is a data type to represent cryptocurrency values in Ruby.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/cmer/koin"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
