@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    koin (0.5.1)
+    koin (0.5.2)
 
 GEM
   remote: https://rubygems.org/

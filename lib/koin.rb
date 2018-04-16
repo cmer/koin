@@ -8,7 +8,6 @@ class Koin < BigDecimal
     @currency = currency&.upcase
 
     if value.is_a?(Float)
-      puts "VALUE IS A FLOAT! #{value}"
       super(value, 16)
     elsif value.is_a?(Koin)
       @currency ||= value.currency
