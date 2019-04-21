@@ -36,4 +36,8 @@ class Koin < BigDecimal
     "#{super} #{currency}".strip
   end
   alias_method :inspect, :to_s
+
+  def to_yaml_properties
+    [:@currency]
+  end
 end
